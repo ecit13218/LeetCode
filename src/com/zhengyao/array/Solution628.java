@@ -13,5 +13,4 @@ public class Solution628 {
         int maxf = nums[0] * nums[1] * nums[length - 1];
         return max > maxf ? max : maxf;
     }
-
 }
