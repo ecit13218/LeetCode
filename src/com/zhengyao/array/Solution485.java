@@ -1,7 +1,9 @@
 package com.zhengyao.array;
 
 /**
- * Created by 郑瑶 on 2017/8/21.
+ * @Auther: zhengyao
+ * @Date: 4/23/2019 16:09
+ * @Description:  Max Consecutive Ones 给定一个二进制数组，查出其中1的最长连续值
  */
 public class Solution485 {
     public static void main(String[] args) {
