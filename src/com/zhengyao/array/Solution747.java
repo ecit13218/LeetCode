@@ -18,8 +18,9 @@ public class Solution747 {
         if(nums == null || nums.length == 0){
             return -1;
         }
-        if (nums.length <= 1)
+        if (nums.length <= 1) {
             return 0;
+        }
         int max = 0;
         int secondMax = 0;
         int maxIndex = 0;
@@ -34,8 +35,9 @@ public class Solution747 {
                 secondMax = nums[i];
             }
         }
-        if (max >= secondMax *2)
+        if (max >= secondMax *2) {
             return maxIndex;
+        }
         return -1;
     }
 }
