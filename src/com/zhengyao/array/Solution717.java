@@ -14,13 +14,15 @@ public class Solution717 {
     * DESCRIPTION:遍历数组,如果该值为0,继续往下走,如果该值为1,则跳过一步,到下下个值,这样来判断导数第二个值是0还是1,当是0的时候,数组下标为length-1,否则跳过一位,数组下标为length
     */
     private static boolean isOneBitCharacter(int[] bits) {
-        if (bits == null || bits.length == 0)
+        if (bits == null || bits.length == 0) {
             return  false;
+        }
         int length = bits.length;
         int i =0;
         for(;i < length-1;i++){
-            if(bits[i] == 1)
+            if(bits[i] == 1) {
                 i++;
+            }
         }
         return i != length;
     }
