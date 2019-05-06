@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @Auther: zhengyao
+ * @author: zhengyao
  * @Date: 4/23/2019 16:09
  * @Description:  Find All Numbers Disappeared in an Array 给定一个数组，值为1 ≤ a[i] ≤ n，返回【1，n】中没有在该数组中出现过的数字
  */
@@ -21,7 +21,7 @@ public class Solution448 {
      * 所以将最后数字为0的index给加到list里面就是正确答案了
      * @param:
      * @return:
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 4:57 PM
      */
     public static List<Integer> findDisappearedNumbers(int[] nums) {
@@ -41,7 +41,7 @@ public class Solution448 {
      * 功能描述:将数组中的数字，其中的值与值-1的下标给对应起来，并将其置为负数，然后最后再判断哪两个数字为整数，将整数的下标+1就得到了最终没有出现过的数字了
      * @param:
      * @return:
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 5:31 PM
      */
     public static List<Integer> findDisappearedNumbers2(int[] nums) {

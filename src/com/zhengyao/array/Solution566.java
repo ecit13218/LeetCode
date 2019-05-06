@@ -19,7 +19,7 @@ public class Solution566 {
      * 功能描述:首先把原有矩阵先拉成一个数组，然后对这个数组进行运算，转换为r行c列的矩阵
      * @param:
      * @return:
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 3:12 PM
      */
     public static int[][] matrixReshape(int[][] nums, int r, int c) {

@@ -1,7 +1,7 @@
 package com.zhengyao.array;
 
 /**
- * @Auther: zhengyao
+ * @author: zhengyao
  * @Date: 4/23/2019 16:09
  * @Description:  Max Consecutive Ones 给定一个二进制数组，查出其中1的最长连续值
  */

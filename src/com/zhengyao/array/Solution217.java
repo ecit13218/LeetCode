@@ -10,10 +10,12 @@ public class Solution217 {
     public boolean containsDuplicate(int[] nums) {
         int n = nums.length;
         Set set = new HashSet();
-        for (int x : nums)
+        for (int x : nums) {
             set.add(x);
-        if (n == set.size())
+        }
+        if (n == set.size()) {
             return false;
+        }
         return true;
     }
 
@@ -21,8 +23,9 @@ public class Solution217 {
         int n = nums.length;
         Set set = new HashSet();
         for (int x : nums) {
-            if (!set.add(x))
+            if (!set.add(x)) {
                 return false;
+            }
         }
         return true;
     }

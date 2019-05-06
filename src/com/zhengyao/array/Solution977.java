@@ -3,7 +3,7 @@ package com.zhengyao.array;
 import java.util.Arrays;
 
 /**
- * @Auther: zhengyao
+ * @author: zhengyao
  * @Date: 4/23/2019 15:26
  * @Description: Squares of a Sorted Array 给定一个已排序后数组，对其中的数字进行平方，返回一个递增的新数组
  */
@@ -17,7 +17,7 @@ public class Solution977 {
      * 功能描述:将原有数组进行平方后使用Arrays.sort()进行排序
      * @param: 
      * @return: 
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 3:33 PM
      */
     public static int[] sortedSquares(int[] A) {
@@ -33,7 +33,7 @@ public class Solution977 {
      * 继续下一轮比较，如果是小于等于的话，则直接赋值为A[right]
      * @param: 
      * @return: 
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 3:34 PM
      */
     public static int[] sortedSquares2(int[] A) {

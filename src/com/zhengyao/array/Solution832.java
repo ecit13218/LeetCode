@@ -3,7 +3,7 @@ package com.zhengyao.array;
 import java.util.Arrays;
 
 /**
- * @Auther: zhengyao
+ * @author: zhengyao
  * @Date: 4/15/2019 00:11
  * @Description: Flipping an Image 给定一个数组，先水平将顺序反转，并且将1替换成0,0替换成1
  */

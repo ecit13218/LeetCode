@@ -9,7 +9,7 @@ public class Solution26 {
      * 功能描述:因为是排序过的数组，如果是A[i] =A[i-1],则证明此数字已出现过，跳过该数值
      * @param:
      * @return:
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 3:58 PM
      */
     public int removeDuplicates(int[] nums) {

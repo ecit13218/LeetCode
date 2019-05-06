@@ -1,7 +1,7 @@
 package com.zhengyao.array;
 
 /**
- * @Auther: zhengyao
+ * @author: zhengyao
  * @Date: 4/15/2019 00:11
  * @Description: Find Pivot Index 给定一个数组，在其中找到一个pivot 索引，这个索引的左边累计值与右边累计值相等，如数组中没有这个索引，则返回-1
  */
@@ -15,7 +15,7 @@ public class Solution724 {
      * 功能描述:这里就是用两层for循环，每个数值的左边都与右边进行累计，如果相等，则返回，但是这样的时间复杂度是O（n2），不太好
      * @param: 
      * @return: 
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 5:59 PM
      */
     private static  int pivotIndex(int[] nums) {
@@ -49,7 +49,7 @@ public class Solution724 {
      * 功能描述:先对整个数组进行累计，然后循环，每次都循环当前值左边的累计值，如果left*2 = total-num[i]，则认为是piovt索引
      * @param: 
      * @return: 
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 6:04 PM
      */
     private static  int pivotIndex2(int[] nums) {

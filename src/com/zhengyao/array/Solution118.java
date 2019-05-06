@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by 郑瑶 on 2017/8/26.
  */
-public class Solutiuon118 {
+public class Solution118 {
     public static void main(String[] args) {
         generate(10);
         System.out.println(generate2(10));
@@ -21,8 +21,9 @@ public class Solutiuon118 {
                 List<Integer> lastList = lists.get(i-1);
                 list.add(lastList.get(j-2)+lastList.get(j-1));
             }
-            if(i>=1)
+            if(i>=1) {
                 list.add(1);
+            }
             lists.add(list);
         }
         return lists;

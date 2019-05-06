@@ -1,7 +1,7 @@
 package com.zhengyao.array;
 
 /**
- * @Auther: zhengyao
+ * @author: zhengyao
  * @Date: 4/24/2019 21:16
  * @Description: Sort Array By Parity II 给定一个非负数的数组,奇偶各一半,返回一个index为奇数则对应值也是奇数,index为偶数,则对应值也是偶数的数组
  */
@@ -17,7 +17,7 @@ public class Solution922 {
      *
      * @param:
      * @return:
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/24/2019 9:23 PM
      */
     public static int[] sortArrayByParityII(int[] A) {
@@ -41,7 +41,7 @@ public class Solution922 {
      *
      * @param:
      * @return:
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/24/2019 9:30 PM
      */
     public static int[] sortArrayByParityII2(int[] A) {

@@ -3,7 +3,8 @@ package com.zhengyao.array;
 import java.util.Arrays;
 
 /**
- * Created by 郑瑶 on 2017/8/25.
+ * Created by zhengyao on 2018/8/3
+ * DESCRIPTION:
  */
 public class Solution27 {
     public static void main(String[] args) {
@@ -27,8 +28,9 @@ public class Solution27 {
         Arrays.sort(nums);
         int newLen = nums.length;
         for (int i = 0; i < nums.length && nums[i] < val; i++) {
-            if (nums[i] == val)
+            if (nums[i] == val) {
                 newLen--;
+            }
         }
         return newLen;
     }

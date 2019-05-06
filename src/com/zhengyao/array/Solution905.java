@@ -3,7 +3,7 @@ package com.zhengyao.array;
 import java.util.Arrays;
 
 /**
- * @Auther: zhengyao
+ * @author: zhengyao
  * @Date: 4/22/2019 17:34
  * @Description: 按奇偶排序数组
  */
@@ -20,7 +20,7 @@ public class Solution905 {
      * 功能描述:新增一个数组，然后如果是偶数就从前往后放，如果是奇数就从后往前放
      * @param:
      * @return:
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/23/2019 11:13 AM
      */
     public static int[] sortArrayByParity(int[] A) {
@@ -40,7 +40,7 @@ public class Solution905 {
      * 功能描述:使用双指针交换，当左指针为奇数，右指针为偶数时，直接交换，如果左指针为奇数，right --，直到找到左指针为奇数，右指针为偶数的数据进行交换，这样可以减少内存消耗
      * @param:
      * @return: 
-     * @auther: zhengyao3@郑瑶
+     * @author: zhengyao3@郑瑶
      * @date: 4/22/2019 6:15 PM
      */
     public static int[] sortArrayByParity2(int[] A) {
