@@ -13,7 +13,7 @@ public class ListNode {
         val = x;
     }
 
-    private void add(int val) {
+    public void add(int val) {
         ListNode node = this;
         while (node.next != null) {
             node = node.next;
