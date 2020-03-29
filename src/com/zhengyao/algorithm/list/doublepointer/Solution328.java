@@ -37,12 +37,16 @@ public class Solution328 {
         ListNode oddTail = oddNode;
         ListNode evenTail = evenNode;
         while(evenTail != null && evenTail.next != null){
+            //偶数的下一个是奇数
             oddTail.next = evenTail.next;
             oddTail =oddTail.next;
+            //奇数的下一个是偶数=偶数的下一个的下一个
             evenTail.next = oddTail.next;
             evenTail = evenTail.next;
         }
+        //将偶数链表接在技术链表尾
         oddTail.next = evenNode;
+        //返回奇数链表头
         return oddNode;
     }
 
