@@ -72,7 +72,14 @@ public class Solution02 {
         }
         return temp.next;
     }
-
+    
+    /**
+     * @description : 数字取反,243 -> 342 
+     * @params : [val]
+     * @return : int 
+     * @author : zhengyao 
+     * @date : 2020/3/29 
+     */
     public static int reverseVal(int val){
         int result = 0;
         while(val > 0){
