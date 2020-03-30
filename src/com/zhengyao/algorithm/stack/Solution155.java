@@ -86,7 +86,6 @@ public class Solution155 {
         }
 
         public void pop() {
-            //出栈需要一起出栈
             if(!data.isEmpty()){
                 //如果数据栈值等于现在辅助栈最小值,则需要将辅助栈也出栈
                 if (data.peek().equals(helper.peek())) {
