@@ -55,21 +55,31 @@ public class Solution682 {
         int count = 0;
         for(String op : ops){
             switch(op){
-                case "+":int first = stack.pop();
+                case "+":
+                    //如果是+号的话,需要先将栈顶出栈,再累计好值之后重新入栈
+                    int first = stack.pop();
                     int second = stack.peek();
+                    //重新入栈
                     stack.push(first);
                     int thisPoint = first + second;
+                    //入栈本轮分数
                     stack.push(thisPoint);
                     count +=thisPoint;
                     break;
-                case "D":int temp = stack.peek() * 2;
+                case "D":
+                    //获取上轮分数*2,然后入栈
+                    int temp = stack.peek() * 2;
                     count += temp;
                     stack.push(temp);
                     break;
-                case "C":int thisTemp = stack.pop();
+                case "C":
+                    //将栈顶出栈,并减去上轮分数
+                    int thisTemp = stack.pop();
                     count -=thisTemp;
                     break;
-                default:int point = Integer.valueOf(op); stack.push(point);count += point;                              break;
+                default:
+                    //如果是整数类型的,入栈并将分数值累计至count
+                    int point = Integer.valueOf(op); stack.push(point);count += point;                              break;
             }
         }
         return count;
