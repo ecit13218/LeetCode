@@ -25,8 +25,9 @@ LeetCode刷题: 每次刷题都是在灵魂拷问
 
 ## 栈
 
-| 题目编号                                                   | 代码                                                         | 题解                                                | 备注                   | 难度 |
-| ---------------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------------------- | ---------------------- | ---- |
-| [155. 最小栈](https://leetcode-cn.com/problems/min-stack/) | [最小栈代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution155.java) | [题解](https://zhengyao.space/archives/leetcode155) | 辅助栈解法<br>单栈解法 | easy |
-|                                                            |                                                              |                                                     |                        |      |
+| 题目编号                                                     | 代码                                                         | 题解                                                | 备注                   | 难度 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- | ---------------------- | ---- |
+| [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [有效的括号代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution20.java) | [题解](https://zhengyao.space/archives/leetcode20)  | 栈消除法               | easy |
+| [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)   | [最小栈代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution155.java) | [题解](https://zhengyao.space/archives/leetcode155) | 辅助栈解法<br>单栈解法 | easy |
+|                                                              |                                                              |                                                     |                        |      |
 
