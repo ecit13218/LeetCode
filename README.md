@@ -25,11 +25,12 @@ LeetCode刷题: 每次刷题都是在对自己进行灵魂拷问
 
 ## 栈
 
-| 题目编号                                                     | 代码                                                         | 题解                                                | 备注                     | 难度 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- | ------------------------ | ---- |
-| [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [有效的括号代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution20.java) | [题解](https://zhengyao.space/archives/leetcode20)  | 栈消除法                 | easy |
-| [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)   | [最小栈代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution155.java) | [题解](https://zhengyao.space/archives/leetcode155) | 辅助栈解法<br>单栈解法   | easy |
-| [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | [下一个更大元素代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution496.java) | [题解](https://zhengyao.space/archives/leetcode496) | 暴力遍历法<br>单调栈解法 | easy |
-| [682. 棒球比赛](https://leetcode-cn.com/problems/baseball-game/) | [棒球比赛代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution682.java) | [题解](https://zhengyao.space/archives/leetcode682) | 普通栈解法               | easy |
-| [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | [比较含退格的字符串代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution844.java) | [题解](https://zhengyao.space/archives/leetcode844) | 普通栈解法               | easy |
+| 题目编号                                                     | 代码                                                         | 题解                                                | 备注                     | 难度   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------------- | ------------------------ | ------ |
+| [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [有效的括号代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution20.java) | [题解](https://zhengyao.space/archives/leetcode20)  | 栈消除法                 | easy   |
+| [155. 最小栈](https://leetcode-cn.com/problems/min-stack/)   | [最小栈代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution155.java) | [题解](https://zhengyao.space/archives/leetcode155) | 辅助栈解法<br>单栈解法   | easy   |
+| [496. 下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | [下一个更大元素代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution496.java) | [题解](https://zhengyao.space/archives/leetcode496) | 暴力遍历法<br>单调栈解法 | easy   |
+| [682. 棒球比赛](https://leetcode-cn.com/problems/baseball-game/) | [棒球比赛代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution682.java) | [题解](https://zhengyao.space/archives/leetcode682) | 普通栈解法               | easy   |
+| [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | [每日温度代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution739.java) | [题解](https://zhengyao.space/archives/leetcode739) | 单调栈解法<br>暴力遍历法 | medium |
+| [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | [比较含退格的字符串代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution844.java) | [题解](https://zhengyao.space/archives/leetcode844) | 普通栈解法               | easy   |
 
