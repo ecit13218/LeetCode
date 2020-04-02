@@ -34,4 +34,4 @@ LeetCode刷题: 每次刷题都是在对自己进行灵魂拷问
 | [682. 棒球比赛](https://leetcode-cn.com/problems/baseball-game/) | [棒球比赛代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution682.java) | [题解](https://zhengyao.space/archives/leetcode682) | 普通栈解法               | easy   |
 | [739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | [每日温度代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution739.java) | [题解](https://zhengyao.space/archives/leetcode739) | 单调栈解法<br>暴力遍历法 | medium |
 | [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare/) | [比较含退格的字符串代码](https://github.com/ecit13218/LeetCode/blob/master/src/com/zhengyao/algorithm/stack/Solution844.java) | [题解](https://zhengyao.space/archives/leetcode844) | 普通栈解法               | easy   |
-
+ 
