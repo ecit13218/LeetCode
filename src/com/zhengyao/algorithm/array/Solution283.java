@@ -19,15 +19,12 @@ public class Solution283 {
      * @date: 4/23/2019 4:49 PM
      */
     public static void moveZeroes(int[] nums) {
-        int j = nums.length;
-        int temp = 0;
-        int k = 0;
-        for (int i = 0; i < j; i++) {
-            if (nums[i] != 0) {
-                temp = nums[i];
-                nums[i] = nums[k];
-                nums[k] = temp;
-                k++;
+        int j = 0;
+        for(int i =0;i<nums.length;i++){
+            if(nums[i] != 0){
+                nums[j]=nums[i];
+                nums[i]=0;
+                j++;
             }
         }
     }
